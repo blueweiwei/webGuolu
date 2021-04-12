@@ -5,13 +5,13 @@ webpackJsonp([1],{
 
 
 /* styles */
-__webpack_require__(75)
+__webpack_require__(73)
 
 var Component = __webpack_require__(28)(
   /* script */
-  __webpack_require__(72),
+  __webpack_require__(71),
   /* template */
-  __webpack_require__(79),
+  __webpack_require__(76),
   /* scopeId */
   "data-v-421cf1a4",
   /* cssModules */
@@ -39,7 +39,7 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 72:
+/***/ 71:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -621,14 +621,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 75:
+/***/ 73:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 79:
+/***/ 76:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -1936,7 +1936,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "multiple": "",
       "type": "drag",
-      "action": "//jsonplaceholder.typicode.com/posts/"
+      "action": "https://github.com/blueweiwei"
     }
   }, [_c('div', {
     staticStyle: {

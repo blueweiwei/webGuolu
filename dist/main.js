@@ -1,4 +1,4 @@
-webpackJsonp([3],[
+webpackJsonp([2],[
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12797,14 +12797,6 @@ var routers = [{
     component: function component(resolve) {
         return __webpack_require__.e/* require */(0).then(function() { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(70)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this)).catch(__webpack_require__.oe);
     }
-}, {
-    path: '/test',
-    meta: {
-        title: '结果'
-    },
-    component: function component(resolve) {
-        return __webpack_require__.e/* require */(2).then(function() { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(71)]; (resolve.apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__));}.bind(this)).catch(__webpack_require__.oe);
-    }
 }];
 /* harmony default export */ __webpack_exports__["a"] = (routers);
 
@@ -13834,7 +13826,7 @@ __WEBPACK_IMPORTED_MODULE_0_vue__["default"].use(__WEBPACK_IMPORTED_MODULE_1_vie
 
 // 路由配置
 var RouterConfig = {
-    mode: 'history',
+    mode: 'hash',
     routes: __WEBPACK_IMPORTED_MODULE_3__router__["a" /* default */]
 };
 var router = new __WEBPACK_IMPORTED_MODULE_2_vue_router__["a" /* default */](RouterConfig);

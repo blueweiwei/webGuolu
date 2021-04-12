@@ -5,13 +5,13 @@ webpackJsonp([0],{
 
 
 /* styles */
-__webpack_require__(76)
+__webpack_require__(74)
 
 var Component = __webpack_require__(28)(
   /* script */
-  __webpack_require__(73),
+  __webpack_require__(72),
   /* template */
-  __webpack_require__(80),
+  __webpack_require__(77),
   /* scopeId */
   "data-v-94f9878a",
   /* cssModules */
@@ -39,7 +39,7 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 73:
+/***/ 72:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -858,14 +858,19 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
             var routerParam = this.$route.query.data;
             console.log(routerParam);
+            var urls = 'https://79e7a44883eb44e38c99304a6b3b1d79.apig.cn-south-1.huaweicloudapis.com/doData';
+
             this.$axios({
                 method: "post",
-                url: '/api',
+                url: 'http://add.705705.xyz/tags/forvue.php',
                 params: {
                     data: routerParam
                 }
             }).then(function (res) {
-                _this.getData = res.data;
+                console.log(res);
+                console.log(_this.getData);
+                _this.getData = JSON.parse(res.data);
+                console.log(_this.getData['12'].C3);
                 _this.spinShow = false;
             });
         }
@@ -874,21 +879,21 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 76:
+/***/ 74:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 77:
+/***/ 75:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "c42a3c6e8411a29d0f69ed6157a8663f.png";
 
 /***/ }),
 
-/***/ 80:
+/***/ 77:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -908,7 +913,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }, [_c('img', {
     attrs: {
-      "src": __webpack_require__(77),
+      "src": __webpack_require__(75),
       "alt": ""
     }
   })])], 1)])], 1), _vm._v(" "), _c('Content', {
