@@ -13834,7 +13834,7 @@ __WEBPACK_IMPORTED_MODULE_0_vue__["default"].use(__WEBPACK_IMPORTED_MODULE_1_vie
 
 // 路由配置
 var RouterConfig = {
-    mode: 'hash',
+    mode: 'history',
     routes: __WEBPACK_IMPORTED_MODULE_3__router__["a" /* default */]
 };
 var router = new __WEBPACK_IMPORTED_MODULE_2_vue_router__["a" /* default */](RouterConfig);
